@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./Assets/Refloi.jpeg">
+    <title>Refloi - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Refloi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+              <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="search-input" placeholder="Search songs...">
+              </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                     <div class="lib-option nav-option">
+                    <img src="./Assets/library_icon.png">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy,we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                     <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                 <img src="./Assets/backward_icon.png">
+                <img src="./Assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+               <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right:5px;"></i>Install App</button>
+                 <i class="fa-regular fa-circle-user"></i>
+                </div>
+            </div>
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/top-50-global.jpg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">The world's most played hits</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/top-50-india.jpg" class="card-img">
+                        <p class="card-title">Top 50 - India</p>
+                        <p class="card-info">India's biggest trending hits</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/card2img.jpeg" class="card-img">
+                        <p class="card-title">Mahiye Jinna Sohna</p>
+                        <p class="card-info">Romantic Punjabi melodies...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card3img.jpeg" class="card-img">
+                        <p class="card-title">Mere Pass Tum Ho</p>
+                        <p class="card-info">Emotional hits that touch your heart...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card4img.jpeg" class="card-img">
+                        <p class="card-title">Punjabi Beats</p>
+                        <p class="card-info">Feel the energy of punjabi music...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/workout-mix.jpg" class="card-img">
+                        <p class="card-title">Workout Mix</p>
+                        <p class="card-info">Power your workout with music...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/romantic-vibes.jpg" class="card-img">
+                        <p class="card-title">Romantic Vibes</p>
+                        <p class="card-info">Songs for your special moments...</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Assets/top-50-global.jpg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">The biggest hits from around the world</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/lofi-beats.jpg" class="card-img">
+                        <p class="card-title">Lo-Fi Beats</p>
+                        <p class="card-info">Relax and focus with smooth lo-fi beats</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/chill-hits.jpg" class="card-img">
+                        <p class="card-title">Chill-Hits</p>
+                        <p class="card-info">Unwind with your favorite chill tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/top-50-india.jpg" class="card-img">
+                        <p class="card-title">Top 50 - India</p>
+                        <p class="card-info">India's biggest and most popular hits</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./Assets/daylight.png" class="daylight-card">
+                <p>Daylight<br><small>David Kushner</small></p>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-display"></i>
+
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./Assets/player_icon1.png" class="player-control-icon">
+                    <img src="./Assets/player_icon2.png" class="player-control-icon">
+                    <img src="./Assets/player_icon3.png" class="player-control-icon" style="opacity:1; height: 2rem;">
+                    <img src="./Assets/player_icon4.png" class="player-control-icon">
+                    <img src="./Assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                  
+                </div>
+            </div>
+            <div class="controls">     
+         <i class="fa-solid fa-display"></i>
+        <i class="fa-solid fa-microphone"></i>
+         <i class="fa-solid fa-list"></i>
+           <i class="fa-solid fa-mobile-screen-button"></i>
+            <i class="fa-solid fa-volume-high"></i>
+              <input type="range" class="volume-bar">
+            </div>
+        </div>
+    </div>
+    <audio id="audio-player"></audio>
+    <script src="Refloi.js"></script>
+</body>
+</html>
