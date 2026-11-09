@@ -1,2 +1,2 @@
 # Refloi
-A modern music streaming web application
+A modern music streaming web application.
